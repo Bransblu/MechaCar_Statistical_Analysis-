@@ -28,5 +28,14 @@
 
 ## Study Design: MechaCar vs Competition
 
+### Metrics 
+This study compared the **amount of cupholders** the MechaCar has in comparison to the competition. While a simple metric, it has the potential to be of great interest to consumers. 
 
+### Alternative Hypothesis
+MechaCar's average amount of cupholders are statistically greater or less than competitor vehicles.
 
+### Statistical Testing
+The ideal test would be a two-sample t-test. Sampling a competitors cupholder average compared to MechaCar's cupholder average.
+
+### Data Needed
+The count of cupholders of each model for MechaCar and competitors, alike.
