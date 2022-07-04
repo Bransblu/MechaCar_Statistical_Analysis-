@@ -16,7 +16,9 @@
 
 ## T-Tests on Suspension Coils
 
-![Deliverable 3](deliverable3.png "Deliverable 3")
+![Deliverable 3a](deliverable3a.png "Deliverable 3a: t-test all lots")
+
+![Deliverable 3](deliverable3.png "Deliverable 3: t-test different lots")
 
 ## Study Design: MechaCar vs Competition
 
