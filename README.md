@@ -16,6 +16,12 @@
 
 ## T-Tests on Suspension Coils
 
+- Using a t-test to compare PSI across **all manufacturing lots** showed that the suspension coils were not statistically different. This is evident by the .06028 p-value was not low enough to reject the null hypothesis.
+- Using a t-test to compare PSI across **manufacturing lot 1** showed that the suspension coils were not statistically different. This is evident by the 1.0 p-value was not low enough to reject the null hypothesis.
+- Using a t-test to compare PSI across **manufacturing lot 2** showed that the suspension coils were not statistically different. This is evident by the .0672 p-value was not low enough to reject the null hypothesis.
+- Using a t-test to compare PSI across **manufacturing lot 3** showed that the suspension coils was a slight statistically difference. This is evident by the .04168 p-value was low enough to reject the null hypothesis.
+
+
 ![Deliverable 3a](deliverable3a.png "Deliverable 3a: t-test all lots")
 
 ![Deliverable 3](deliverable3.png "Deliverable 3: t-test different lots")
