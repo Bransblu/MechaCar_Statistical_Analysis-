@@ -26,3 +26,13 @@ total_summary <- suspensiondata %>% summarize(Mean=mean(PSI), Median=median(PSI)
 # Create lot_summary df
 lot_summary <- suspensiondata %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), 
     Median=median(PSI), Variance=var(PSI), SD=sd(PSI))
+
+# Deliverable 3
+# Create a t-test to determine if PSI across all manufacturing
+# lots is statistically different from population mean of 1500 lbs PSI
+t.test(suspensiondata$PSI,mu=1500)
+
+# Create t.test using subset for each lot
+t.test(subset(suspensiondata,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+t.test(subset(suspensiondata,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+t.test(subset(suspensiondata,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
