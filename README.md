@@ -16,6 +16,7 @@
 
 ## T-Tests on Suspension Coils
 
+![Deliverable 3](deliverable3.png "Deliverable 3")
 
 ## Study Design: MechaCar vs Competition
 
