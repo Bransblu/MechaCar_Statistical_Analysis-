@@ -8,6 +8,11 @@
 
 ## Summary Statistics on Suspension Coils
 
+- The variance is under 100 at 62.3 (shown below), meaning that overall the manufacturing data meets the design requirements of 100 PSI variance. Investigating further, the lot summary shows that lot 3 a variance of 170. Lot 1 and lot 2 both are within the required PSI variance.
+
+![Deliverable 2a](deliverable2a.png "Deliverable 2a: total summary")
+
+![Deliverable 2b](deliverable2b.png "Deliverable 2b: lot summary")
 
 ## T-Tests on Suspension Coils
 
